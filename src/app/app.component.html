@@ -1,0 +1,7 @@
+<!-- {{ months }} -->
+
+
+
+<select (change)="monthChanged($event)">
+  <option *ngFor="let month of months" value="{{ month }}">  {{ month }} </option>
+</select>
